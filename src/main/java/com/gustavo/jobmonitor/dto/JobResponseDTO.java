@@ -1,7 +1,9 @@
 package com.gustavo.jobmonitor.dto;
 import com.gustavo.jobmonitor.model.JobStatus;
 import java.time.LocalDateTime;
+import io.swagger.v3.oas.annotations.media.Schema;
 
+@Schema(description = "Representação de um job no sistema")
 public class JobResponseDTO {
 
     private Long id;
